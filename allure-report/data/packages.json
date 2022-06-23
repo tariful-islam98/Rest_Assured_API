@@ -1,0 +1,86 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.java.features",
+    "children" : [ {
+      "name" : "Get_feature.Testing different Get requests",
+      "children" : [ {
+        "name" : "Get all",
+        "uid" : "e95ea30a4f971ded",
+        "parentUid" : "4f7692e45a84c315f3e79414e90bbb97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655743375130,
+          "stop" : 1655743377869,
+          "duration" : 2739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get specific",
+        "uid" : "1df02740a11d5fe3",
+        "parentUid" : "4f7692e45a84c315f3e79414e90bbb97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655743377948,
+          "stop" : 1655743378156,
+          "duration" : 208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get with query parameter",
+        "uid" : "a05b14e7929057ba",
+        "parentUid" : "4f7692e45a84c315f3e79414e90bbb97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655743378310,
+          "stop" : 1655743378356,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Get_feature.Testing different Get requests"
+    }, {
+      "name" : "Post_feature.Post operations",
+      "children" : [ {
+        "name" : "Post data to profile",
+        "uid" : "de3a42eacd8f6eca",
+        "parentUid" : "dae0b328abfa956e748a07c04b1b4a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655743378368,
+          "stop" : 1655743379166,
+          "duration" : 798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Post_feature.Post operations"
+    }, {
+      "name" : "Put_feature.Put operations",
+      "children" : [ {
+        "name" : "Put data to profile",
+        "uid" : "a64ab430a6eb169b",
+        "parentUid" : "d79d5734703fb1f72668ba256fcc9b01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655743379176,
+          "stop" : 1655743379228,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "Put_feature.Put operations"
+    } ],
+    "uid" : "src.test.java.features"
+  } ]
+}

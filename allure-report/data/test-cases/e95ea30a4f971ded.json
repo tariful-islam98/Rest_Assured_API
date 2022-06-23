@@ -1,0 +1,120 @@
+{
+  "uid" : "e95ea30a4f971ded",
+  "name" : "Get all",
+  "fullName" : "Testing different Get requests: Get all",
+  "historyId" : "177da678c29ff726cbd9399d7fdc16ec",
+  "time" : {
+    "start" : 1655743375130,
+    "stop" : 1655743377869,
+    "duration" : 2739
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  user wants to get all information for \"posts\"",
+      "time" : {
+        "start" : 1655743375133,
+        "stop" : 1655743377301,
+        "duration" : 2168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  response \"200\" should be received",
+      "time" : {
+        "start" : 1655743377304,
+        "stop" : 1655743377307,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "And  user information should be received",
+      "time" : {
+        "start" : 1655743377308,
+        "stop" : 1655743377867,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "Tariful-Islam"
+  }, {
+    "name" : "thread",
+    "value" : "12492@Tariful-Islam.TestNG-PoolService-0(20)"
+  }, {
+    "name" : "feature",
+    "value" : "Testing different Get requests"
+  }, {
+    "name" : "story",
+    "value" : "Get all"
+  }, {
+    "name" : "suite",
+    "value" : "Testing different Get requests"
+  }, {
+    "name" : "testClass",
+    "value" : "Get all"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///F:/Performance%20Testing/Rest_Assured_API/src/test/java/features/Get.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.Get_feature.Testing different Get requests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "e95ea30a4f971ded.json",
+  "parameterValues" : [ ]
+}

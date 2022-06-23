@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Put operations","Put data to profile","0","0","1","0","0"
+"","Testing different Get requests","Get all","0","0","1","0","0"
+"","Testing different Get requests","Get with query parameter","0","0","1","0","0"
+"","Testing different Get requests","Get specific","0","0","1","0","0"
+"","Post operations","Post data to profile","0","0","1","0","0"

@@ -1,0 +1,111 @@
+{
+  "uid" : "de3a42eacd8f6eca",
+  "name" : "Post data to profile",
+  "fullName" : "Post operations: Post data to profile",
+  "historyId" : "894806d6e62b7aac68bc128db05899c6",
+  "time" : {
+    "start" : 1655743378368,
+    "stop" : 1655743379166,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  user performs post operation for \"profile\"",
+      "time" : {
+        "start" : 1655743378368,
+        "stop" : 1655743379151,
+        "duration" : 783
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "128d2e84eef4b0fa",
+        "name" : "Data table",
+        "source" : "128d2e84eef4b0fa.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 14
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then  response body should have \"eee\"",
+      "time" : {
+        "start" : 1655743379152,
+        "stop" : 1655743379166,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "Tariful-Islam"
+  }, {
+    "name" : "thread",
+    "value" : "12492@Tariful-Islam.TestNG-PoolService-0(20)"
+  }, {
+    "name" : "feature",
+    "value" : "Post operations"
+  }, {
+    "name" : "story",
+    "value" : "Post data to profile"
+  }, {
+    "name" : "suite",
+    "value" : "Post operations"
+  }, {
+    "name" : "testClass",
+    "value" : "Post data to profile"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///F:/Performance%20Testing/Rest_Assured_API/src/test/java/features/Post.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.Post_feature.Post operations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "de3a42eacd8f6eca.json",
+  "parameterValues" : [ ]
+}

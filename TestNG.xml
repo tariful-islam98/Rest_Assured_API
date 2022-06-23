@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Testng Cucumber Suite" parallel = "tests" data-provider-thread-count = "1">
+    <test name = "SmokeTest" annotations = "@smoke" preserve-order = "true">
+        <classes>
+            <class name = "testrunner.TestNGTestRunner"/>
+            <class name = "testrunner.FailedTestRunner"/>
+        </classes>
+    </test>
+</suite>

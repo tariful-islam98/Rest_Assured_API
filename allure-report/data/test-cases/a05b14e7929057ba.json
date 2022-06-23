@@ -1,0 +1,111 @@
+{
+  "uid" : "a05b14e7929057ba",
+  "name" : "Get with query parameter",
+  "fullName" : "Testing different Get requests: Get with query parameter",
+  "historyId" : "437dab17ffaa3d0255b6f5fbb9a8b7b5",
+  "time" : {
+    "start" : 1655743378310,
+    "stop" : 1655743378356,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  user wants to get information for \"profile\" having",
+      "time" : {
+        "start" : 1655743378310,
+        "stop" : 1655743378354,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd7387e449035215",
+        "name" : "Data table",
+        "source" : "bd7387e449035215.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Then  response \"200\" should be received",
+      "time" : {
+        "start" : 1655743378355,
+        "stop" : 1655743378355,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "Tariful-Islam"
+  }, {
+    "name" : "thread",
+    "value" : "12492@Tariful-Islam.TestNG-PoolService-0(20)"
+  }, {
+    "name" : "feature",
+    "value" : "Testing different Get requests"
+  }, {
+    "name" : "story",
+    "value" : "Get with query parameter"
+  }, {
+    "name" : "suite",
+    "value" : "Testing different Get requests"
+  }, {
+    "name" : "testClass",
+    "value" : "Get with query parameter"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///F:/Performance%20Testing/Rest_Assured_API/src/test/java/features/Get.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.Get_feature.Testing different Get requests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "a05b14e7929057ba.json",
+  "parameterValues" : [ ]
+}
